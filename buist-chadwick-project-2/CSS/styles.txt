@@ -1,0 +1,23 @@
+body { font-family: Arial,Veranda,sans-serif;
+
+	}
+	
+h1 {
+   width: 300px;
+   }
+   
+h1 {
+  margin-top: 10px
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
+  }
+	
+	
+h1, h2 {
+    color: #ee3e80;
+}
+    
+p {
+   color: #665544;
+}
