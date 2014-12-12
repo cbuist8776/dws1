@@ -1,9 +1,7 @@
 body { font-family: Arial,Veranda,sans-serif;
-
+        background-color: #F7FE2E;
 	}
 	
-body { background-color: FFFF00;
-}
 
 
 body#main {
@@ -12,22 +10,30 @@ body#main {
    border-color: #0088dd
    }
    
+   @font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+   
 a:link {
-   color: deeppink;
+   color: #F7819F;
    text-decoration: none;
    }
    
 a:visited {
-    color: black;
+    color: #000000;
     }
     
 a:hover {
-  color: deeppink;
+  color:  #F7819F;
   text-decoration: underline;
   }
   
 a:active {
-   color: darkcyan;
+   color: #819FF7;
    }
    
 ol {
@@ -37,23 +43,17 @@ ol {
 h1 {
    width: 600px;
    height: 100px;
-   padding: 150px;
-   margin: 10px;
+   padding: 25px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: autopx;
+   margin-left: autopx;
    }
    
 
-
-   
-
-   
- 
-  
-   
-
-	
-	
 h1, h2 {
     color: #ee3e80;
+    font-family: Oswald;
 }
 
 
