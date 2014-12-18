@@ -10,7 +10,7 @@ body { font-family: Arial,Veranda,sans-serif;
 /* body boarder properties */
 
 body#main {
-   border-width: 0.3%;
+ 
    border-style: solid;
    border-color: #0088dd
    
@@ -54,6 +54,10 @@ ol {
    
    }
    
+#top {
+ text-align: center;
+  }
+   
 /* Title/header 1 settings */
 	
 h1 {
@@ -75,18 +79,42 @@ h1, h2 {
 /* Beginning of background image properties non-repeating */
 
 #Butterfly {
-   background-image: ("../image/swimboy.jpg");
+   background-image: url("../images/swimming.png");
    background-repeat: no-repeat;
-   height: 4%
-   padding: 0.6% 0 0 5%;
+   height: 4%;
+   padding: 1%;
+   
+   }
+   
+#Backstroke {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
    
 }
+
+#Breaststroke {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
+   
+   }
+   
+   #Freestyle {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
+   
+   }
 
 /* Paragraph color and background linear gradient settings */
     
 p {
    color: #000000;
-   background: linear-gradient (#fffae7, #ffeba2);
+   background: linear-gradient(#fffae7, #ffeba2);
    }
 
 /* NOTE settings */
@@ -94,9 +122,9 @@ p {
 #NOTE {
 width: 98%;
 height: 2%;
-padding: 0.8%;
+padding: 1%;
 text-align: center;
-border-width: 0.16%px;
+
 border-style: solid;
 border-color: #0088dd;
 background-color: #FFFFFF;
@@ -107,28 +135,28 @@ background-color: #FFFFFF;
 
 figure#image1 {
 
-border-width: 0.33%;
+
 border-style: solid;
 border-color: #000000;
 }
 
 figure#image2 {
 
-border-width: 0.33%;
+
 border-style: solid;
 border-color: #000000;
 }
 
 figure#image3 {
 
-border-width: 0.33%;
+
 border-style: solid;
 border-color: #000000;
 }
 
   figure#image4 {
 
-border-width: 0.33%;
+
 border-style: solid;
 border-color: #000000;
 }
@@ -138,7 +166,7 @@ border-color: #000000;
 #List,#Strokes1,#Strokes2 {
  width: 29%;
  float: left;
- margin: 0.83%;
+ margin: 1%;
  
  }
  
@@ -148,7 +176,7 @@ border-color: #000000;
  clear: left;
  width: 100%;
  height: 2%;
- padding: 0.83%;
+ padding: 1%;
  text-align: center;
  }
 
