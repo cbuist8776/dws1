@@ -9,13 +9,19 @@
  <body id="main">
   
  
- 
+ <header>
   <h1 id="top">Competitive Swimming Strokes</h1>
+  
+  <nav>
   
   <a href="#Butterfly">Butterfly</a>
   <a href="#Backstroke">Backstroke</a>
   <a href="#Breaststroke">Breaststroke</a>
   <a href="#Freestyle">Freestyle</a>
+  
+  </nav>
+  
+</header>
   
 
   
@@ -23,18 +29,40 @@
   <p id="NOTE"> <strong>NOTE:</strong>  The following are the main 4 strokes of competitive swimming</p>
   
 
-  
+ 
   <div id="List">
+  <aside>
+  <section class="swimming-strokes">
   <ol>
      <li>Butterfly</li>
      <li>Backstroke</li>
      <li>Breaststroke</li>
      <li>Freestyle</li>
   </ol>
-  
+  </section>
+  </aside>
   </div>
   
+   
+  
+  <table id="swimtable">
+    <tr>
+     <th scope="row">Short-Axis</th>
+      <td>Butterfly</td>
+      <td>Breaststroke</td>
+    </tr>
+    <tr>
+      <th scope="row">Long-Axis</th>
+      <td>Backstroke</td>
+      <td>Freestyle</td>
+    </tr>
+ </table>
+ 
+
+  
   <div id="Strokes1">
+  
+<article>
   
   <h2 id="Butterfly">Butterfly</h2>
   <p>Butterfly is one of the hardest strokes that a competitive swimmer can try to train for.
@@ -44,6 +72,10 @@
   finish of the arms that push the body slightly downward and yet forward at the same time. Breathing
   should be completed with as little effort as possible with the chin on the surface of the water
   per each breath taken.</p>
+  
+  </article>
+  
+  <article>
   
   <h2 id="Backstroke">Backstroke</h2>
   <p>Backstroke is an easier stroke to try to train for compared to the butterfly. However it
@@ -56,9 +88,19 @@
   about the spine for maximum Distance Per Stroke or DPS.  A tight streamlined position is 
   preferred coming off of a start, turn, and going into a breakout.</p>
   
+  </article>
+  
+  
+  
   </div>
   
+  
+  
+ 
+  
   <div id="Strokes2">
+  
+  <article>
   
   <h2 id="Breaststroke">Breaststroke</h2>
   <p>The breaststroke is a unique stroke in of itself as it is a very short axis stroke with
@@ -70,6 +112,10 @@
   Then later the legs perform an out sweep to propel the water it has caught on the in sweep outward
   and behind the body to push the body forward into the next stroke.</p>
   
+  </article>
+  
+  <article>
+  
   <h2 id="Freestyle">Freestyle</h2>
   <p> Freestyle is one of the easiest strokes of the four that a swimmer can try to learn as it is easier for a swimmer to
   immitate an instructor on.  It is a long axis stroke where the swimmer pulls with a single stroke and kick that are in sync 
@@ -79,11 +125,24 @@
   fashion and is in synch with each hip rotation that is incurred as the body is propelled
   forward per each stroke.  The swimmer breathes on the side rather than the front as is done in butterfly.</p>
   
+  </article>
+  
   </div>
+  
+  </article>
+  
+ 
+  
   
 
   
+
+  
+ 
+  
   <p class="clear"><strong>Gallery</strong></p>
+  
+
   
   <figure id="Image1">
     <img src="images/butterfly.jpg"
@@ -109,6 +168,103 @@
     alt="Freestyle Stroke"/>
     <figcaption> <a href="http://www.freeimages.com/photo/1129359">Freestyle Stroke Link</a></figcaption>
   </figure>
+  
+    <form id="swiminfo"
+    action="http://example.com/join.php"
+    method="post">
+    
+    <p> Please Submit Your Username and Password </p>
+    
+     <label for="Username" class="title">Username:
+    </label>
+    
+    <input type="text" id="Username"
+    name="Username" 
+    required="required"/>
+          
+    </p>
+    
+    <label for="Password" class="title">Password:
+    </label>
+    
+    <input type="text" id="Password"
+    name="Password" 
+    required="required"/>
+    
+   
+    
+    </p>
+    
+    <p>What did you think of this page?</p>
+    
+    <textarea name="comments">
+      Enter your comments...
+    </textarea>
+    
+    <p> Your favorite stroke:<br />
+    
+    <input type="radio" name="stroke"
+    value="Butterfly" checked="checked" />Butterfly
+    
+    <input type="radio" name="stroke"
+    value="Backstroke"  />Backstroke
+    
+    <input type="radio" name="stroke"
+    value="Breaststroke"  />Breaststroke
+    
+    <input type="radio" name="stroke"
+    value="Freestyle" />Freestyle
+    
+    </p>
+    
+    <p> Strokes You Would Like More Info On? </p>
+    
+    <select name="More Info"
+    
+    <option value="Butterfly"
+    selected="selected"
+    >Butterfly</option>
+    
+    <option value="Backstroke"
+    >Backstroke</option>
+    
+    <option value="Breaststroke"
+    >Breaststroke</option>
+    
+    <option value="Freestyle"
+    >Freestyle</option>
+    
+    
+    </select>
+    
+    <form action="http://eg.com/email.php">
+    
+    <p>Please Submit Your Email for Updates.</p>
+    
+     <label for="email" class="title">Email:
+    </label>
+    
+    <input type="email" id="email"
+    name="email" />
+    
+   
+    
+    <input type="submit"
+           value="Subscribe" />
+           
+   
+    
+
+    
+    
+    </form>
+  
+ 
+ 
+  
+  <footer>
+  &copy; 2014 Chad's Swimming Tips
+  </footer>
   
   
  </body>

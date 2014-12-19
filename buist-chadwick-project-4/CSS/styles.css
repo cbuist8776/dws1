@@ -116,6 +116,21 @@ p {
    color: #000000;
    background: linear-gradient(#fffae7, #ffeba2);
    }
+   
+/* Table properties */
+
+#swimtable {
+  width: 33%;
+  padding: 1%;
+  border: 5%
+  border-spacing: 1%;
+  background-color: #FFFFFF;
+  text-align: center;
+  }
+  
+  #swimtable:hover {
+  background-color: #FFFF00;
+  }
 
 /* NOTE settings */
 
@@ -179,4 +194,22 @@ border-color: #000000;
  padding: 1%;
  text-align: center;
  }
+ 
+ /* Form Settings */
+ 
+ #swiminfo {
+ 
+ padding: 1%;
+ margin: 5%;
+ font-size: 90%;
+ background-color: #d3d3d3;
+ border: 3%;
+ border-color: #000000;
+ border-width: 3%;
+ text-align:  center;
+ }
+ 
+  #swiminfo:hover {
+  background-color: #FFFF00;
+  }
 
