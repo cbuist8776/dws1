@@ -122,8 +122,8 @@ p {
 #swimtable {
   width: 33%;
   padding: 1%;
-  border: 5%
-  border-spacing: 1%;
+ 
+ 
   background-color: #FFFFFF;
   text-align: center;
   }
@@ -203,9 +203,8 @@ border-color: #000000;
  margin: 5%;
  font-size: 90%;
  background-color: #d3d3d3;
- border: 3%;
  border-color: #000000;
- border-width: 3%;
+ ;
  text-align:  center;
  }
  
