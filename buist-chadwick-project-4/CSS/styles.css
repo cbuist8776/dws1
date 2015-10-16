@@ -1,0 +1,219 @@
+/* Body text, color, background image properties */
+
+body { font-family: Arial,Veranda,sans-serif;
+        background-color: #F7FE2E;
+        width: 90%;
+        margin: 0 auto;
+        background-image: url("../images/soft-grid.gif")
+        }
+	
+/* body boarder properties */
+
+body#main {
+ 
+   border-style: solid;
+   border-color: #0088dd
+   
+   }
+   
+  /* google font installed */
+   
+   @font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Links settings */
+   
+a:link {
+   color: #F7819F;
+   text-decoration: none;
+   
+   }
+   
+a:visited {
+    color: #000000;
+    }
+    
+a:hover {
+  color:  #F7819F;
+  text-decoration: underline;
+  }
+  
+a:active {
+   color: #819FF7;
+   }
+   
+/* List settings */   
+   
+ol {
+   list-style-type: upper-alpha;
+   
+   }
+   
+#top {
+ text-align: center;
+  }
+   
+/* Title/header 1 settings */
+	
+h1 {
+   width: 100%;
+   height: 8.3%;
+   padding: 2%;
+   text-align: center;
+   }
+   
+/* heading settings for color and font family */   
+   
+   
+
+h1, h2 {
+    color: #ee3e80;
+    font-family: Oswald;
+}
+
+/* Beginning of background image properties non-repeating */
+
+#Butterfly {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
+   
+   }
+   
+#Backstroke {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
+   
+}
+
+#Breaststroke {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
+   
+   }
+   
+   #Freestyle {
+   background-image: url("../images/swimming.png");
+   background-repeat: no-repeat;
+   height: 4%;
+   padding: 1%;
+   
+   }
+
+/* Paragraph color and background linear gradient settings */
+    
+p {
+   color: #000000;
+   background: linear-gradient(#fffae7, #ffeba2);
+   }
+   
+/* Table properties */
+
+#swimtable {
+  width: 33%;
+  padding: 1%;
+ 
+ 
+  background-color: #FFFFFF;
+  text-align: center;
+  }
+  
+  #swimtable:hover {
+  background-color: #FFFF00;
+  }
+
+/* NOTE settings */
+
+#NOTE {
+width: 98%;
+height: 2%;
+padding: 1%;
+text-align: center;
+
+border-style: solid;
+border-color: #0088dd;
+background-color: #FFFFFF;
+}
+
+/* image settings */
+
+
+figure#image1 {
+
+
+border-style: solid;
+border-color: #000000;
+}
+
+figure#image2 {
+
+
+border-style: solid;
+border-color: #000000;
+}
+
+figure#image3 {
+
+
+border-style: solid;
+border-color: #000000;
+}
+
+  figure#image4 {
+
+
+border-style: solid;
+border-color: #000000;
+}
+
+/* Float settings for list */
+
+#List,#Strokes1,#Strokes2 {
+ width: 29%;
+ float: left;
+ margin: 1%;
+ 
+ }
+ 
+/* Clear settings for list */
+ 
+.clear {
+ clear: left;
+ width: 100%;
+ height: 2%;
+ padding: 1%;
+ text-align: center;
+ }
+ 
+ /* Form Settings */
+ 
+ #swiminfo {
+ 
+ padding: 1%;
+ margin: 5%;
+ font-size: 90%;
+ background-color: #d3d3d3;
+ border-color: #000000;
+ ;
+ text-align:  center;
+ }
+ 
+  #swiminfo:hover {
+  background-color: #FFFF00;
+  }
+  
+  /* Float settings for Table Tags */
+  
+ 
+ 
+
